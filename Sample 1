@@ -1,0 +1,13 @@
+print("Hello this is a sample")
+Num1 = "1
+print(int(Num1))
+online = True
+if online:
+    print("online")
+else:
+    print("offline")
+Name = input("What is your name: ")
+if Name == "":
+    print("ERROR 001")
+else:
+    print(f"Hello {Name}!")
