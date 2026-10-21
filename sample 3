@@ -1,0 +1,46 @@
+print("Hello this is a sample!")
+
+import time
+
+#This is sample 3
+
+name = input("Please input your name: ")
+age = int(input("Please input your age: "))
+
+
+if age < 18:
+    print (f"{name} you are a child")
+
+else:
+
+    print(f"Hello {name}, You are {age} years old!")
+
+time.sleep(2)
+
+num1 = "10"
+print(num1)
+time.sleep(2)
+num1 = int(num1)
+
+
+print("Divided by 2?")
+time.sleep(1)
+
+print(f" {num1 // 2}")
+time.sleep(2)
+print("Count to 20 three times!")
+time.sleep(1)
+for x in range(3):
+    for y in range(1, 21):
+
+        print(y, end=" ")
+
+    time.sleep(1)
+    print()
+while age >= 18:
+    ans = input("What color is a LED?:  ")
+    if ans == "red" or ans == "green" or ans == "blue":
+        print("correct!")
+        break
+    else:
+        print("incorrect!")
