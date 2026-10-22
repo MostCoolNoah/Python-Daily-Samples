@@ -53,7 +53,7 @@ elif ans == "no" or ans == "No":
         ans = input("Are you sure?: ")
 
 
-print(f"{num1:.5}")
+print(f"{num1:.5f}")
 
 time.sleep(1)
 people = ["James", "Levi", "Matthew", "Markus"]
