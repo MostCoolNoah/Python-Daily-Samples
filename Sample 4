@@ -1,0 +1,79 @@
+
+import time
+
+
+print("Hello! This is a sample.")
+#sample 4
+
+time.sleep(1)
+
+name = input("What is your name:  ")
+
+time.sleep(1)
+
+print(f"Hello, {name}!")
+
+time.sleep(1)
+
+age = int(input("What is your age: "))
+
+time.sleep(1)
+
+year = int(input("What is the current year: "))
+time.sleep(1)
+BD = input("Have you had your birthday this year?: ")
+if BD == "Yes" or "yes":
+        BY = year - age
+
+elif BD == "No" or "no":
+        BY = year - age - 1
+
+else:
+    BY = year - age -100
+
+
+if BY == 2010:
+    print(f"You were born in {BY}.")
+    print("Thats the same year as me!")
+else:
+    print(f"You were born in {BY}.")
+
+num1 = float(input("Enter a number: "))
+
+ans = input("Are you sure?: ")
+
+if ans == "yes" or ans == "Yes":
+    print(f"{num1:.5f}")
+
+elif ans == "no" or ans == "No":
+    while ans == "No" or ans == "no":
+
+
+        num1 = float(input("Enter a number: "))
+        ans = input("Are you sure?: ")
+
+
+print(f"{num1:.5}")
+
+time.sleep(1)
+people = ["James", "Levi", "Matthew", "Markus"]
+
+time.sleep(1)
+print(people)
+time.sleep(1)
+print(people[1], "is my best friend")
+
+time.sleep(1)
+print(type(people[1]))
+
+time.sleep(1)
+
+print("COUNT TO 20 FIVE TIMES!")
+time.sleep(1)
+print("fine...")
+time.sleep(1)
+for x in range(5):
+    for y in range(1,21):
+
+        print(y, end=" ")
+    print()
